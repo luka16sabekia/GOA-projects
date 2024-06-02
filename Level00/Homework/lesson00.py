@@ -43,7 +43,6 @@ left(120)
 forward(200)
 end_fill()
 
-
 exitonclick()
 
 
