@@ -496,9 +496,4 @@ end_fill()
 
 
 
-
-
-
-
-
 exitonclick()
