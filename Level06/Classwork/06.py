@@ -1,13 +1,11 @@
 
+# Importing user numbers
+num1 = input("Enter the first number:")
+num2 = input("Enter the second number: ")
 
 
-# მომხმარებლის რიცხვების შემოტანა
-num1 = input("შეიტანეთ პირველი რიცხვი:10")
-num2 = input("შეიტანეთ მეორე რიცხვი:125 ")
-
-
-# რიცხვების ჯამი
+# Sum of numbers
 result = num1 + num2
 
-# შედეგის გამოტანა
-print("ორი რიცხვის ჯამი არის:", result )
+# Output Result
+print("The sum of two numbers is:", result )
