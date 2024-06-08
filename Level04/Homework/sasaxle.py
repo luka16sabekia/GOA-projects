@@ -478,7 +478,7 @@ end_fill()
 
 
 
-#make leaves
+# make leaves
 begin_fill()
 color("green")
 penup()

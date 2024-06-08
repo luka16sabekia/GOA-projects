@@ -14,7 +14,7 @@ minus1 = num1 - num2
 minus2 = num1 - num3
 minus3  = num2 - num3
 
-# Reproduction
+#  Reproduction
 rpdct1 = num1 * num2 * num3
 rpdct2 = num1 * num2
 rpdct3 = num2 * num3

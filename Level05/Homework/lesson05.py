@@ -10,7 +10,7 @@ first = "hello everybody"
 way2 = f"{first}" 
 print(way2)
 
-#1
+# 1
 name = "Luka"
 way2 = f"My name is  {name}"
 print(way2)

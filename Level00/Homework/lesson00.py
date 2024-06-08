@@ -1,6 +1,6 @@
 from turtle import *
 
-#we want to paint house
+# we want to paint house
 
 speed(5)
 #step 1: darw a square
