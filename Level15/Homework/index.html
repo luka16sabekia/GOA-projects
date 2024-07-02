@@ -1,0 +1,53 @@
+<!--2) შექმენით single page website. თავიდან იყოს home, შემდეგ about და ბოლოში contact.
+ეს იქნება თქვენი პირველი პორტფოლიო, homeში დაწერეთ ვინ ხართ, გამოიტანეთ თქვენი ფოტო
+, aboutში დაწერეთ ინფორმაცია თქვენს შესახებ, რა მოგწონთ, რა არ მოგწონთ, რითი ხართ დაკავებული და ა.შ.
+და contactში გააკეთეთ ასეთი რამ რაც ფოტოზეა მოცემული, formების გამოყენებით. გამოიყენეთ ყველაფერი რაც აქამდე ვისწავლეთ-->
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Lukas Portfolio</h1>
+        <img src="ME.jpg" alt="its me"width="200">
+        <p>Hi, I'm LUKA. Welcome to my portfolio!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am LUKA, Im studying programming in GOA Also I love playing football and watching as well</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+
+</body>
+</html>
