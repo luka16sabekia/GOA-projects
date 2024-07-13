@@ -1,0 +1,74 @@
+<!-- 
+task1 -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drop down Menu</title>
+</head>
+<body>
+    <form id="colorForm" action="/submit-color" method="post">
+        <label for="colors">select color:</label>
+        <select id="colors" name="color">
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="black">black</option>
+        </select>
+        <button type="submit">send</button>
+    </form>
+
+
+
+<!-- task2 -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drop-down Menu</title>
+    </head>
+    <body>
+        <form id="movieForm" action="/submit-movie" method="post">
+            <label for="movies">select film:</label>
+            <select id="movies" name="movie">
+                <option value="inception">Kung Fu Panda</option>
+                <option value="avatar">Avatar</option>
+                <option value="godfather">King Kong</option>
+                <option value="dark-knight">Bad Boys</option>
+                <option value="pulp-fiction">DolphinTale</option>
+            </select>
+            <button type="submit">send</button>
+        </form>
+    </body>
+</html>
+
+
+<!-- task3 -->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Registration Form</title>
+</head>
+<body>
+    <form id="registrationForm" action="/submit-registration" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="accountType">AccountType:</label>
+        <select id="accountType" name="accountType" required>
+            <option value="personal">Personal</option>
+            <option value="business">Business</option>
+        </select><br><br>
+
+        <button type="submit">Sign up</button>
+    </form>
