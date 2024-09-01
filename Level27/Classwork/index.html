@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Test</title>
+    <style>
+        @font-face {
+            font-family: 'CustomFont1';
+            src: url('path/to/font1.ttf');
+        }
+        
+        @font-face {
+            font-family: 'CustomFont2';
+            src: url('path/to/font2.ttf');
+        }
+
+        @font-face {
+            font-family: 'CustomFont3';
+            src: url('path/to/font3.ttf');
+        }
+
+        .font-test {
+            font-size: 50px; 
+        }
+
+        .font1 {
+            font-family: 'CustomFont1', sans-serif;
+        }
+
+        .font2 {
+            font-family: 'CustomFont2', sans-serif;
+        }
+
+        .font3 {
+            font-family: 'CustomFont3', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p class="font-test font1">Luka</p>
+    <p class="font-test font2">LUKA</p>
+    <p class="font-test font3">15</p>
+</body>
+</html>

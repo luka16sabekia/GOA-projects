@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.styled-ol {
+    list-style-type: decimal-leading-zero; /* 01, 02, 03... */
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-left: 5px solid #00acc1;
+}
+
+.styled-ol li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00796b;
+    font-size: 18px;
+}
+
+.styled-ul {
+    list-style-type: square; /* ◼ */
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #ffe0b2;
+    border-left: 5px solid #ffb74d;
+}
+
+.styled-ul li {
+    margin-bottom: 10px;
+    color: #e65100;
+    font-size: 18px;
+}
