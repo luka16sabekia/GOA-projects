@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+  }
+  
+  .lemon {
+    width: 200px;
+    height: 100px;
+    background-color: #fdfd96;
+    border-radius: 50% / 100%;
+    border: 8px solid #f4a460; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    position: relative;
+  }
+  
+  .lemon::before,
+  .lemon::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f4a460;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .lemon::before {
+    left: -15px;
+  }
+  
+  .lemon::after {
+    right: -15px;
+  }
+  
