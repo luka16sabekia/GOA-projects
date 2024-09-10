@@ -1,0 +1,193 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #05d787;
+    padding: 15px 0;
+    z-index: 1000;
+    transition: background 0.3s;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: #08ed99;
+    color: #1e1e1e;
+    border-radius: 5px;
+  }
+  
+  .home {
+    background: url('https://source.unsplash.com/1600x900/?tech,design') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10ee8e;
+    text-align: center;
+  }
+  
+  .home-content {
+    max-width: 600px;
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background: #04b17a;
+    color: #1e1e1e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+    background: #1e1e1e;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  
+  .about {
+    padding: 80px 20px;
+    text-align: center;
+    background: #00ed7f;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .contact {
+    padding: 80px 20px;
+    text-align: center;
+    background: #dfdfdf;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    background: #1e1e1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background: #333;
+  }
+  
+  
+  .footer {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+    }
+  
+    .home-content h1 {
+        font-size: 36px;
+    }
+  
+    .about h2, .contact h2 {
+        font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+    .navbar {
+        flex-direction: column;
+    }
+  }
+  
