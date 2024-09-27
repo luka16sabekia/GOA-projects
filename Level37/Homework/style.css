@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-rows: repeat(3, 150px); /* 3 rows, each 150px high */
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Placing the grid items according to the design */
+  
+  .item1 {
+    grid-area: 1 / 1 / 2 / 3; /* Spans 2 columns */
+    background-color: pink;
+  }
+  
+  .item2 {
+    grid-area: 2 / 1 / 3 / 4; /* Spans 3 columns */
+    background-color: lightblue;
+  }
+  
+  .item3 {
+    grid-area: 1 / 3 / 2 / 5; /* Spans 2 columns */
+    background-color: lightgreen;
+  }
+  
+  .item4 {
+    grid-area: 2 / 4 / 3 / 5; /* Spans 1 column */
+    background-color: lightcoral;
+  }
+  
+  .item5 {
+    grid-area: 3 / 1 / 4 / 2; /* Spans 1 column */
+    background-color: peachpuff;
+  }
+  
+  .item6 {
+    grid-area: 3 / 2 / 4 / 3; /* Spans 1 column */
+    background-color: lightyellow;
+  }
+  
+  .item7 {
+    grid-area: 3 / 3 / 4 / 4; /* Spans 1 column */
+    background-color: lightpink;
+  }
+  
+  .item8 {
+    grid-area: 3 / 4 / 4 / 5; /* Spans 1 column */
+    background-color: lightsalmon;
+  }
+  
+  .item9 {
+    grid-area: 2 / 3 / 3 / 4; /* Spans 1 column */
+    background-color: lightgoldenrodyellow;
+  }
+  
+  /* Add some styling to the grid items */
+  .grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+  }
+  

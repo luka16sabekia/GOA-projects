@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns with different widths */
+    grid-template-rows: 1fr 2fr 1fr; /* Three rows with different heights */
+    gap: 10px; /* 10px gap between grid items */
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  /* Define the placement and sizing of grid items */
+  .item1 {
+    grid-area: 1 / 1 / 3 / 2; /* Spanning two rows and one column */
+    background-color: lightgreen;
+  }
+  
+  .item2 {
+    grid-area: 1 / 2 / 2 / 3; /* Top middle */
+    background-color: lightcoral;
+  }
+  
+  .item3 {
+    grid-area: 1 / 3 / 2 / 4; /* Top right */
+    background-color: lightyellow;
+  }
+  
+  .item4 {
+    grid-area: 2 / 2 / 3 / 4; /* Middle two columns */
+    background-color: lightblue;
+  }
+  
+  .item5 {
+    grid-area: 3 / 1 / 4 / 3; /* Bottom two columns */
+    background-color: lightpink;
+  }
+  
+  .item6 {
+    grid-area: 3 / 3 / 4 / 4; /* Bottom right */
+    background-color: lightsalmon;
+  }
+  
+  /* Styling for grid items */
+  .grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
