@@ -1,0 +1,36 @@
+<!-- 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Animation</title>
+  <style>
+    @keyframes simpleAnimation {
+      from {
+        transform: scale(1);
+        background-color: red;
+      }
+      to {
+        transform: scale(1.5);
+        background-color: blue;
+      }
+    }
+
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: simpleAnimation 3s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> Animation</h1>
+
+  <div class="square"></div>
+
+</body>
+</html>

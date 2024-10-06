@@ -1,0 +1,61 @@
+<!-- 3 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Animation</title>
+  <style>
+    @keyframes multiStateAnimation {
+      0% {
+        background-color: red;
+        transform: scale(1);
+      }
+      25% {
+        background-color: orange;
+        transform: scale(1.5);
+      }
+      50% {
+        background-color: yellow;
+        transform: scale(2);
+      }
+      75% {
+        background-color: green;
+        transform: scale(1.5);
+      }
+      100% {
+        background-color: blue;
+        transform: scale(1);
+      }
+    }
+
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: multiStateAnimation 5s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Animation</h1>
+
+  <div class="square"></div>
+
+</body>
+</html>
+
+
+<!-- 4 -->
+
+<!-- Keyframe-ები არის CSS-ში გამოყენებული ინსტრუქციები
+რომლებიც განსაზღვრავენ, როგორ შეიცვლება ელემენტის თვისებები დროთა განმავლობაში
+Keyframe-ებით შესაძლებელია ანიმაციის სხვადასხვა მდგომარეობების განსაზღვრა პროცენტულობის მიხედვით (მაგ., 0%, 50%, 100%) -->
+
+<!-- Frame-ები წარმოადგენს ცალკეულ მომენტებს ანიმაციაში
+რომლებიც თანმიმდევრულად იცვლებიან და ქმნიან მოძრაობის ან ვიზუალური ცვლილების ეფექტს.
+Keyframe-ები განსაზღვრავენ ანიმაციის საწყის და საბოლოო მდგომარეობებს
+, ხოლო Frame-ები წარმოადგენენ ამ მდგომარეობების შორის გარდამავალ კადრებს. -->

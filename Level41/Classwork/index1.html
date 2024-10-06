@@ -1,0 +1,39 @@
+<!-- 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+    @keyframes squareToCircle {
+      0% {
+        background-color: red;
+        transform: scale(1) rotate(0deg);
+        border-radius: 0%;
+      }
+      100% {
+        background-color: blue;
+        transform: scale(2) rotate(90deg);
+        border-radius: 50%;
+      }
+    }
+
+    .square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: squareToCircle 2s ease-in-out;
+      animation-iteration-count: 3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> Animation</h1>
+
+  <div class="square"></div>
+
+</body>
+</html>
