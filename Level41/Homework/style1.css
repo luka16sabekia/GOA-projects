@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f3f4f6;
+  }
+  
+  .moving-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    animation: move 3s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(calc(100vw - 100px));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
